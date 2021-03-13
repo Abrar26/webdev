@@ -1,14 +1,13 @@
-class Employee():
-    #Contructor Example
-    def __init__(self):
-        print("Constructor is created")
-    
-    #Self object Example
-    def getInformation(self):
-        print(f"{self.name} is a student of {self.clg} and age of the student is {self.age}.")
+import random
+class Train:
+    def __init__(self,name,fare,seats):
+        self.name=name
+        self.fare=fare
+        self.seats=seats
         
-Abrar=Employee()
-Abrar.name="Abrar Ahmed"
-Abrar.age=20
-Abrar.clg="CAHCET"
-Abrar.getInformation()
+    def getStatus(self):
+        print(f"The name of the train is {self.name}")
+        print(f"The seats available in the train are {random.randint(0,self.seats)}")
+
+lalbagh= Train("LALBAGH",60,300)
+lalbagh.getStatus()
