@@ -1,0 +1,628 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+h4{
+  display: inline;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+
+/* NavBar */
+.nav-btn{
+  z-index: 2;
+}
+
+@media (min-width:1000px){
+  .navlink{
+    position: relative;
+    right: 20px;
+    font-size: large;
+    z-index: 2;
+  }
+  .navlink li{
+    padding-left: 10px;
+  }
+}
+
+
+
+/* Home page Content from here */
+
+
+                    /* Main Screen ----------------------------> */
+.main-page{
+  height:93vh;
+}
+.bg-img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.main-content span{
+  font-size: 60px;
+}
+.main-content{
+  font-family: 'Kalam', cursive;
+  color: #fff;
+  z-index: 2;
+  font-size: 50px;
+}
+
+
+@media (min-width:330px){
+  .bg-img img{
+    height: 700px;
+    width: 370px;
+  }
+  
+  .bg-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@media (max-width:1700px) and (min-width:300px){
+  .bg-img img{
+    height: 1000px;
+    width: 1370px;
+  }
+  
+  .bg-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+
+                    /* About page ----------------------------> */        
+
+.about .myimage{
+  margin-right: 60px;
+  font-family: 'Baloo 2', cursive;
+}
+.about-profile-title{
+  display: flex;
+  margin-top: 2px;
+}
+.about-profile-title .title{
+  font-weight: 600;
+  font-family: 'Kanit', sans-serif;
+}
+.contact{
+  color: rgb(82, 76, 76);
+}
+.about-content{
+  color: rgb(82, 76, 76);
+}
+
+
+                    /* Skills ---------------------------------> */
+.skill-frontend-item{
+  margin-bottom: 3rem;
+}
+.skill-item{
+  margin-left: 3%;
+  font-size: large;
+  font-weight: 600;
+  color: rgb(150, 141, 141);
+}                    
+.item-1{
+  margin: 2%;
+  border: 1px solid #e34c26;
+  height: 10px;
+  width:70%;
+  background-image: linear-gradient(to right, #e34c26 85%,white 50%);
+  border-radius: 5px;
+}
+.item-2{
+  margin: 2%;
+  border: 1px solid #f0DB4f;
+  height: 10px;
+  width:70%;
+  background-image: linear-gradient(to right, #f0DB4f 73%,white 50%);
+  border-radius: 5px;
+}
+.item-3{
+  margin: 2%;
+  border: 1px solid #61DBFB;
+  height: 10px;
+  width:70%;
+  background-image: linear-gradient(to right, #61DBFB 60%,white 50%);
+  border-radius: 5px;
+}
+.item-4{
+  margin: 2%;
+  border: 1px solid #3c873a;
+  height: 10px;
+  width:70%;
+  background-image: linear-gradient(to right, #3c873a 70%,white 50%);
+  border-radius: 5px;
+}
+.item-5{
+  margin: 2%;
+  border: 1px solid #a7b5bb;
+  height: 10px;
+  width:70%;
+  background-image: linear-gradient(to right, #a7b5bb 74%,white 50%);
+  border-radius: 5px;
+}
+.item-6{
+  margin: 2%;
+  border: 1px solid #4Db33d;
+  height: 10px;
+  width:70%;
+  background-image: linear-gradient(to right, #4Db33D 80%,white 50%);
+  border-radius: 5px;
+}
+
+
+
+
+                        /* Educations ----------------------->*/
+.img{
+  display: flex;
+  margin-bottom: 5%;
+}
+.img p{
+  margin: auto;
+  font-size: large;
+  font-weight: 600;
+}
+
+
+                        /* Resume -----------------------> */
+
+.btn-primary
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus{
+  background-color: #e34c26 !important;
+  border: 1p
+  x solid #e34c26 !important;
+} 
+
+
+
+
+/* Mobile Responsive */
+
+@media only screen and (max-width:320px) {
+
+  .bg-img img{
+    height: 700px;
+    width: 370px;
+  }
+  
+.bg-img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+  
+  /* Main */
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-0%,-50%);
+  }
+  .main-content span{
+    font-size: 28px;
+  }
+  .main-content{
+    font-family: 'Kalam', "cursive";
+    font-size: 25px;
+  }
+  
+  /* About */
+
+  .about{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0%;
+    margin-top: -20px;
+  }
+  .myimage{
+    width: 20rem;
+  }
+  .myimage img{
+    margin-left: 10px;
+    margin-top: 10px;
+    height:350px;
+    width:300px;
+  }
+  .about-profile-title .contact{
+    margin-top: 4px;
+  }
+  .quote{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: rgb(172, 162, 162);
+    transform: scale(1.8) rotate(180deg);
+  }
+  .quote-down{
+    margin-top: -20px;
+    margin-left: 30px;
+    color: rgb(172, 162, 162);
+    transform: scale(1.8);
+  }                  
+
+  .home-head h3{
+    margin-top: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+  }                     
+  .about-content{
+    font-size: 24px;
+    font-family: 'Baloo 2', cursive;
+    margin-top: 10px;
+    margin-left: 10px;
+    width:300px;
+  }        
+  .about-content span{
+    margin-left: 50px;
+  }
+
+
+
+  
+   /* Skill */
+   .skill-head{
+    margin-left: 5%;
+  }
+  .skill-content{
+    margin-top: 10px;
+    margin-left: 15%;
+
+  }
+
+
+  /* Education */
+
+  .img{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+  }
+  .img p{
+    margin-top: 10px;
+  }
+  .img img{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    margin: 10px auto 10px auto ;
+  }  
+
+  
+                        /* Service -----------------------> */
+.swiper-wrapper{
+  padding-bottom: 75px;
+}
+
+
+
+    /* Resume */ 
+ .cv{
+  margin-left: 20%;
+  width: 200px;
+  margin-bottom: 2%;
+}
+
+
+}
+
+
+
+@media (min-width:330px){
+  .bg-img img{
+    height: 700px;
+    width: 100%;
+  }
+
+  .navlink li{
+    padding-left: 10px;
+  }
+
+
+  /* Main */
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-0%,-50%);
+  }
+.main-content span{
+  font-size: 32px;
+}
+.main-content{
+  font-family: 'Kalam', cursive;
+  font-size: 25px;
+}
+
+/* Content Page content center*/
+
+.home-center{
+  width: 90%;
+  margin-left: 2%;
+  margin-right: 3%;
+}
+
+  /* About */
+
+  .about{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: -20px;
+  }
+  .myimage{
+    width: 20rem;
+  }
+  .myimage img{
+    margin-left: 10px;
+    margin-top: 10px;
+    height:350px;
+    width:300px;
+  }
+  .about-profile-title .contact{
+    margin-top: 4px;
+  }
+  .quote{
+    margin-top: 10px;
+    margin-left: 30px;
+    color: rgb(172, 162, 162);
+    transform: scale(1.8) rotate(180deg);
+  }
+  .quote-down{
+    margin-top: -20px;
+    margin-left: 30px;
+    color: rgb(172, 162, 162);
+    transform: scale(1.8);
+  }                  
+
+  .home-head h3{
+    margin-top: 30px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+  }                     
+  .about-content{
+    font-size: 24px;
+    font-family: 'Baloo 2', cursive;
+    margin-top: 10px;
+    margin-left: 10px;
+    width:300px;
+  }        
+  .about-content span{
+    margin-left: 50px;
+  }
+
+
+   /* Skill */
+   .skill-head{
+    margin-left: 5%;
+  }
+  .skill-content{
+    margin-top: 10px;
+    margin-left: 15%;
+  }
+  
+
+
+  /* Education */
+  .img{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2%;
+  }
+  .img p{
+    margin-top: 10px;
+  }
+  .img img{
+    border-radius: 50%;
+    height:100px;
+    width:100px;
+    margin: 10px auto 10px auto ;
+  }  
+
+  
+                        /* Service -----------------------> */
+.swiper-wrapper{
+  padding-bottom: 75px;
+}
+.service-head{
+  margin-bottom: -14px;
+}
+.service-card{
+  margin-left: 4%;
+}
+
+   /* Resume */ 
+ .cv{
+  margin-left: 22%;
+  width: 200px;
+  margin-bottom: 2%;
+}
+
+
+
+}
+@media only screen and (max-width:1700px) and (min-width:500px){
+  .bg-img img{
+    height: 1000px;
+    width: 1370px;
+  }
+
+
+  /* Main */
+  .center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+  .main-content span{
+    font-size: 60px;
+  }
+  .main-content{
+    font-size: 50px;
+  }
+
+  /* About */
+
+  .about{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-top: 10px;
+  }
+  .myimage{
+    width: 130rem;
+  }
+  .myimage img{
+    margin-left: 10px;
+    margin-top: 10px;
+    height:350px;
+    width:320px;
+  }
+  .about-profile-title .contact{
+    margin-top: 5px;
+  }
+  h4 span{
+    margin-left: 10px;
+  }
+  .quote{
+    margin-top: 20px;
+    margin-left: 50px;
+    color: rgb(172, 162, 162);
+    transform: scale(2.8) rotate(180deg);
+  }
+  .quote-down{
+    margin-left: 50px;
+    color: rgb(172, 162, 162);
+    transform: scale(2.8) ;
+  }
+
+.home-head h3{
+  margin-top: 50px;
+  font-family: 'Kanit', sans-serif;
+  font-weight: 800;
+}                     
+.about-content{
+  font-family: 'Baloo 2', cursive;
+  font-size: 32px;
+  margin-left: 100px;
+  width:80%;
+}        
+.about-content span{
+  margin-left: 50px;
+}
+
+
+  /* Skill */
+  .skill-head{
+    margin-left: 10%;
+  }
+  .skill-content{
+    margin-top: 25px;
+    margin-left: 15%;
+  }
+
+
+  /* Education */
+  .img{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5%;
+  }
+  .img p{
+    margin: auto;
+    font-size: large;
+    font-weight: 600;
+  }
+  .img img{
+    border-radius: 50%;
+    height:200px;
+    width:200px;
+    margin: 0;
+  }   
+  
+  
+                        /* Service -----------------------> */
+.service{
+  width: 100%;
+}
+.swiper-wrapper{
+  padding-bottom: 40px;
+}
+.service-center{
+  width: 50%;
+  margin: auto;
+}
+.service .service-card{
+  width: 500px;
+}
+
+ /* Resume */ 
+ .cv{
+  margin-left: 44%;
+  width: 200px;
+  margin-bottom: 2%;
+}
+
+
+
+
+
+}
