@@ -229,8 +229,23 @@ body {
   x solid #e34c26 !important;
 } 
 
-
-
+                        /* AddSkill PAGE -----------------------> */
+.addskill h2{
+  margin-top: 10px;
+  margin-left: 10%;
+}                        
+form{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 1% auto 0 auto;
+}
+#outlined-basic{
+  height: 20px;
+}
+form input{
+  margin-bottom: 20px;
+}
 
 /* Mobile Responsive */
 
@@ -607,10 +622,11 @@ body {
   padding-bottom: 40px;
 }
 .service-center{
-  width: 50%;
-  margin: auto;
+  width: 57%;
 }
 .service .service-card{
+  margin-left: 40px;
+
   width: 500px;
 }
 
