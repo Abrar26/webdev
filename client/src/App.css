@@ -229,24 +229,6 @@ body {
   x solid #e34c26 !important;
 } 
 
-                        /* AddSkill PAGE -----------------------> */
-.addskill h2{
-  margin-top: 10px;
-  margin-left: 10%;
-}                        
-form{
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  margin: 1% auto 0 auto;
-}
-#outlined-basic{
-  height: 20px;
-}
-form input{
-  margin-bottom: 20px;
-}
-
 /* Mobile Responsive */
 
 @media only screen and (max-width:320px) {
@@ -366,6 +348,26 @@ form input{
   padding-bottom: 75px;
 }
 
+                        /* AddSkill PAGE -----------------------> */
+.addskill h2{
+  margin-top: 10px;
+  margin-left: 4%;
+}
+
+#outlined-basic{
+  width: 250px;
+  height: 20px;
+}
+.form-border{
+  border: 1px solid rgb(94, 91, 87);
+  padding: 20px;
+  width: 50px;
+}
+.form-center{
+  width: 90%;
+  margin-top: 50px;
+  margin-left: 5%;
+}
 
 
     /* Resume */ 
@@ -503,6 +505,28 @@ form input{
   margin-left: 4%;
 }
 
+                        /* AddSkill PAGE -----------------------> */
+.addskill h2{
+  margin-top: 10px;
+  margin-left: 4%;
+}
+
+#outlined-basic{
+  width: 250px;
+  height: 20px;
+}
+.form-border{
+  border: 1px solid rgb(94, 91, 87);
+  padding: 20px;
+  width: 50px;
+}
+.form-center{
+  width: 90%;
+  margin-top: 50px;
+  margin-left: 5%;
+}
+
+
    /* Resume */ 
  .cv{
   margin-left: 22%;
@@ -629,6 +653,31 @@ form input{
 
   width: 500px;
 }
+
+
+                        /* AddSkill PAGE -----------------------> */
+.addskill h2{
+  margin-top: 10px;
+  margin-left: 10%;
+}
+.addskill{
+  margin-right: 20%;                        
+}
+#outlined-basic{
+  width: 350px;
+  height: 20px;
+}
+.form-border{
+  border: 1px solid rgb(94, 91, 87);
+  padding: 20px;
+  width: 50px;
+}
+.form-center{
+  width: 50%;
+  margin-top: 50px;
+  margin-left: 30%;
+}
+                        
 
  /* Resume */ 
  .cv{

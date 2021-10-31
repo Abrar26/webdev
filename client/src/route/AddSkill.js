@@ -1,4 +1,3 @@
-
 import React, { useRef, useState } from "react";
 import { Button,
   FormControl,
@@ -14,29 +13,25 @@ function AddSkill(){
         <>
         <div className="addskill">
           <h2>Add Your Skill</h2>
-          <FormControl>
-            <TextField id="outlined-basic" size="small" label="Outlined" variant="outlined" />
-            <InputLabel htmlFor="my-input">Email address</InputLabel>
-            <Input id="my-input" variant="outlined" aria-describedby="my-helper-text" />
-            <Button color="primary" variant="contained" >Submit</Button>
-          </FormControl>
+          <div className="form-center form-border">
+            <p >
+              Add Skill Name with How much You Know About that Skill 
+              Percentage...
+            </p>
+            <FormControl >
+              <Box mb={3} mt={1.5}>
+                  Skill Name : &nbsp;&nbsp;&nbsp;&nbsp;
+                <TextField id="outlined-basic" size="small" variant="outlined" />
+              </Box>
+              <Box mb={3}>
+                  Percentage: &nbsp;&nbsp;&nbsp;&nbsp;
+                <TextField id="outlined-basic" size="small" variant="outlined" />
+              </Box>
+              <Button color="primary" variant="contained" >Submit</Button>
+            </FormControl>
+          </div>
 
-          <Box
-      component="form"
-      sx={{
-        '& > :not(style)': { m: 1, width: '25ch' },
-      }}
-      noValidate
-      autoComplete="off"
-    >
-      <TextField id="outlined-basic" label="Outlined"  />
-    </Box>
-    <TextField
-          required
-          id="outlined-required"
-          label="Required"
-          defaultValue="Hello World"
-        />
+          
         </div>
         </>
     )
