@@ -13,8 +13,8 @@ function AddSkill(){
           <h2>Add Your Skill</h2>
           <div className="form-center form-border">
             <p >
-              Add Skill Name with How much You Know About that Skill 
-              Percentage...
+              Add Skill Name with How much You Know About that Skill and
+              Percentage  Like(67%)...
             </p>
             <FormControl >
               <Box mb={3} mt={1.5}>
