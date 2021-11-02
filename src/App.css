@@ -85,7 +85,7 @@ body {
 }
 .main-content{
   font-family: 'Kalam', cursive;
-  color: #fff;
+  color: rgb(249, 252, 251);
   z-index: 2;
   font-size: 50px;
 }
@@ -106,7 +106,7 @@ body {
     overflow: hidden;
   }
 }
-@media (max-width:1700px) and (min-width:300px){
+@media (max-width:1700px) and (min-width:1000px){
   .bg-img img{
     height: 1000px;
     width: 1370px;
@@ -118,6 +118,22 @@ body {
     top: 0;
     width: 100%;
     height: 100%;
+    overflow: hidden;
+  }
+}
+
+@media (max-width:600px) and (min-width:400px){
+  .bg-img img{
+    height: 900px;
+    width: 100%;
+  }
+  
+  .bg-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;  
     overflow: hidden;
   }
 }
@@ -411,7 +427,7 @@ body {
 /* Content Page content center*/
 
 .home-center{
-  width: 90%;
+  width: 92%;
   margin-left: 2%;
   margin-right: 3%;
 }
@@ -538,10 +554,6 @@ body {
 
 }
 @media only screen and (max-width:1700px) and (min-width:500px){
-  .bg-img img{
-    height: 1000px;
-    width: 1370px;
-  }
 
 
   /* Main */
